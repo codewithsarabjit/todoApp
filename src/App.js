@@ -7,6 +7,7 @@ import {
 import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
+import Login from './pages/login/login.component';
 
 class App extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
       <div className="App">      
         <Switch>
           <Route exact path="/" component={HomePage} />
+          <Route exact path="/login" component={Login} />
         </Switch>
       </div>
     )
