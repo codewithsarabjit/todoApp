@@ -6,7 +6,6 @@ const Login = () => ({
     render() {
         return (
             <div>
-                <h2>THIS IS LOGIN PAGE</h2>
                 <LoginForm />
             </div>
         );

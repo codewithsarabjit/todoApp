@@ -4,7 +4,8 @@ import {
   Route
 } from "react-router-dom";
 
-import './App.css';
+//import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import HomePage from './pages/homepage/homepage.component';
 import Login from './pages/login/login.component';
